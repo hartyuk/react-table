@@ -323,7 +323,7 @@ export const Expanding: TableFeature = {
     row.getCanExpand = () => {
       return (
         table.options.getRowCanExpand?.(row) ??
-        ((table.options.enableExpanding ?? true) && !!row.subRowsCount)
+        ((table.options.enableExpanding ?? true))
       )
     }
     row.getIsAllParentsExpanded = () => {
