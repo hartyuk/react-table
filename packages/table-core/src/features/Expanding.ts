@@ -321,9 +321,10 @@ export const Expanding: TableFeature = {
       )
     }
     row.getCanExpand = () => {
+      console.log('getCanExpand')
       return (
         table.options.getRowCanExpand?.(row) ??
-        ((table.options.enableExpanding ?? true))
+        true
       )
     }
     row.getIsAllParentsExpanded = () => {
