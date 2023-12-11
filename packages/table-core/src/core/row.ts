@@ -90,6 +90,8 @@ export interface CoreRow<TData extends RowData> {
    * @link [Guide](https://tanstack.com/table/v8/docs/guide/rows)
    */
   subRows: Row<TData>[]
+
+  subRowsCount?: number
 }
 
 export const createRow = <TData extends RowData>(

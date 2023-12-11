@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\packages",
+    "\\packages\\react-table",
+    "\\packages\\react-table\\src",
+    "\\packages\\table-core",
+    "\\packages\\table-core\\src",
+    "\\packages\\table-core\\src\\features"
+  ],
+  "SelectedNode": "\\packages\\table-core\\src\\features\\Expanding.ts",
+  "PreviewInSolutionExplorer": false
+}
