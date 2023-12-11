@@ -342,7 +342,7 @@ export const Expanding: TableFeature = {
       const canExpand = row.getCanExpand()
 
       return () => {
-        if (!canExpand) return
+       // if (!canExpand) return
         row.toggleExpanded()
       }
     }
